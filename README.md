@@ -1,4 +1,4 @@
-1. 4 exercises with bugs in the code.
+1. 3 exercises with bugs in the code.
 2. Run ruby filename.rb to find the error in the code.
 3. Fix the bug in the code.
 4. Run ruby filename.rb to demonstrate that the bug has been fixed.
