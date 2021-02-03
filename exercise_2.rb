@@ -13,3 +13,18 @@ def decode(ciphertext, key)
   end
   plaintext_chars.join
 end
+
+
+print encode("theswiftfoxjumpedoverthelazydog", "secretkey")
+
+print decode("EMBAXNKEKSYOVQTBJSWBDEMBPHZGJSL", "secretkey")
+
+
+
+# Intended output:
+#
+# > encode("theswiftfoxjumpedoverthelazydog", "secretkey")
+# => "EMBAXNKEKSYOVQTBJSWBDEMBPHZGJSL"
+#
+# > decode("EMBAXNKEKSYOVQTBJSWBDEMBPHZGJSL", "secretkey")
+# => "theswiftfoxjumpedoverthelazydog"
