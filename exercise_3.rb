@@ -6,3 +6,10 @@ def factorial(n)
   end
   product
 end
+
+puts factorial(5)
+
+# Intended output:
+#
+# > factorial(5)
+# => 120
